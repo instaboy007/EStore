@@ -1,0 +1,105 @@
+<HTML>
+	<HEAD>
+		<TITLE>EStore.com</TITLE>
+		<LINK REL = "ICON" TYPE = "IMAGE/PNG" HREF = "LOGO.PNG">
+		<STYLE>
+			.MYSLIDES 
+			{
+				DISPLAY:NONE;
+			}
+		</STYLE>
+	</HEAD>
+	<BODY BGCOLOR="WHITE">
+		<TABLE BORDER="0" STYLE="WIDTH:1330PX;HEIGHT:30PX;BORDER-COLLAPSE:COLLAPSE;BACKGROUND-COLOR:GREY;">
+			<TR HEIGHT="30PX">
+				<TH STYLE="PADDING:0PX 547PX;BACKGROUND-COLOR:black;"><IMG SRC="LOGO.PNG" HEIGHT="80" WIDTH="80" STYLE="PADDING:15PX 0PX;" ><ASIDE STYLE="FLOAT:RIGHT;MARGIN:0PX;PADDING:0PX;"><H1 STYLE="TEXT-ALIGN:LEFT;FONT-FAMILY:sans-serif;FONT-SIZE:40PX;"><B><FONT COLOR="WHITE">T O R E</FONT></B></H1></ASIDE></TH>
+			</TR>
+			<TABLE BORDER="0" STYLE="WIDTH:1330PX;HEIGHT:600PX;BORDER-COLLAPSE:COLLAPSE;BACKGROUND-COLOR:GREY;">
+				<TR>
+					<TH WIDTH="300PX" STYLE="BACKGROUND-COLOR:grey;">
+						<TABLE BORDER="1" STYLE="WIDTH:300PX;BORDER-COLLAPSE:COLLAPSE;BACKGROUND-COLOR:GREY;">
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="SMARTPHONE.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">SMART PHONES</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="LAPTOP.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">LAPTOPS</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="TV.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">TV</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="SMARTWATCH.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">SMART WATCHES</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="TABLET.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">TABLETS</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="CAMERA.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">CAMERA</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="SPEAKER.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">SPEAKERS</H2></A></TH>
+							</TR>
+							<TR>
+								<TH HEIGHT="100PX" STYLE="BACKGROUND-COLOR:black;"><A HREF="COMPUTER.HTML"><H2 STYLE="COLOR:WHITE;FONT-FAMILY:sans-serif;">COMPUTER ACCESSORIES</H2></A></TH>
+							</TR>
+						</TABLE>
+					</TH>
+					<TH>
+						<TABLE BORDER="0">
+							<TR BGCOLOR="grey" height="100PX" width="500PX">
+								<TH>
+									<div class="w3-content w3-section" style="max-width:900px;padding:0PX 225px 0px">
+										<img class="MYSLIDES" src="PHONE.JPG" style="width:100%;">
+										<img class="MYSLIDES" src="LAPTOP.JPG" style="width:100%;">
+										<img class="MYSLIDES" src="TV.PNG" style="width:100%;">
+										<img class="MYSLIDES" src="SMARTWATCH.PNG" style="width:100%;">
+										<img class="MYSLIDES" src="TABLETS.JPG" style="width:100%;">
+										<img class="MYSLIDES" src="CAMERA.png" style="width:100%;">
+										<img class="MYSLIDES" src="SPEAKERS.JPG" style="width:100%;">
+										<img class="MYSLIDES" src="COMPUTER ACCESSORIES.JPG" style="width:100%;">
+									</div>
+									<script>
+									var myIndex = 0;
+									carousel();
+									function carousel() 
+									{
+										var i;
+										var x = document.getElementsByClassName("MYSLIDES");
+										for (i = 0; i < x.length; i++) 
+										{
+											x[i].style.display = "none";  
+										}
+										myIndex++;
+										if (myIndex > x.length) 
+										{
+											myIndex = 1
+										} 	   
+										x[myIndex-1].style.display = "block";  
+										setTimeout(carousel, 2000);
+									}
+									</script>
+								</TH>
+							</TR>
+							<TR BGCOLOR="BLACK">
+								<TH STYLE="PADDING:15PX 0PX 0PX;"><H1 STYLE="COLOR:WHITE;COLOR:WHITE;FONT-FAMILY:SANS-SERIF;">ONLINE SHOPPING SITE FOR ELECTRONIC GADGETS</H1></TH>
+							</TR>
+						</TABLE>
+						<TABLE BORDER="0">
+							<TR STYLE="BACKGROUND-COLOR:BLACK;">
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="SMARTPHONE.HTML"><IMG SRC="https://www.freepnglogos.com/uploads/smartphone-png/mobile-phone-smartphone-vector-graphic-24.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">SMARTPHONES</H3></A></TH>
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="LAPTOP.HTML"><IMG SRC="https://pngimage.net/wp-content/uploads/2018/06/laptop-vector-icon-png-1.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">LAPTOPS</H3></A></TH>
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="TV.HTML"><IMG SRC="https://images.vexels.com/media/users/3/158810/isolated/preview/c140cafd081b0e6cab7ddaae37c86a92-television-antenna-button-silhouette-by-vexels.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">TV'S</H3></A></TH>
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="SMARTWATCH.HTML"><IMG SRC="smartwatch-pngrepo-com.PNG" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">SMARTWATCHES</H3></A></TH>
+							</TR>
+							<TR STYLE="BACKGROUND-COLOR:BLACK;">
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="TABLET.HTML"><IMG SRC="https://images.vexels.com/media/users/3/128862/isolated/preview/5b021d17fb3643d144434b4cc6c3a74c-tablet-flat-icon-by-vexels.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">TABLETS</H3></A></TH>
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="CAMERA.HTML"><IMG SRC="https://i.pinimg.com/originals/80/a1/f1/80a1f1e0f77e87a7208475287b86aa4d.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">CAMERA</H3></A></TH>
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="SPEAKER.HTML"><IMG SRC="https://images.vexels.com/media/users/3/128789/isolated/preview/3f14298cedd9bfe3b2f4266143bce495-speakers-flat-icon-by-vexels.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">SPEAKERS</H3></A></TH>
+								<TH STYLE="PADDING:10PX 50PX 0PX;"><A HREF="COMPUTER.HTML"><IMG SRC="https://images.vexels.com/media/users/3/136262/isolated/preview/e04bd9042f1695f0844fbe935b858d9c-keyboard-flat-icon-by-vexels.png" HEIGHT="150PX" WIDTH="150PX"><H3 STYLE="COLOR:WHITE;TEXT-ALIGN:CENTER;FONT-FAMILY:SANS-SERIF;">COMPUTER ACCESSORIES</H3></A></TH>
+							</TR>
+						</TABLE>
+					</TH>
+				</TR>
+			</TABLE>
+		</TABLE>
+</HTML>
